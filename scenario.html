@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <!-- ปลดล็อกสิทธิ์การถ่างซูม (user-scalable=yes และขยายได้สูงสุดถึง 10 เท่า) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=10.0, user-scalable=yes">
+    <title>Youth Voice Paper</title>
+    <style>
+        /* ล้างค่าเริ่มต้นของ Browser */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* ป้องกัน Scrollbar ซ้อนกัน 2 ชั้น */
+            background-color: #f4f7f4;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100vh; 
+            height: 100dvh; 
+            border: none;
+            /* เพิ่มสไตล์ช่วยจำลองการเลื่อนแบบลื่นไหลสำหรับอุปกรณ์ iOS */
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+</head>
+<body>
+    <iframe 
+        src="https://script.google.com/macros/s/AKfycbzQWZ77N_AFvV-FDnsKMIpfPSLFiBemExb4blIsWxQsfFo8EhZ29rDqfhvTzyERKfme/exec"
+        allow="camera; microphone; forms; geolocation; autoplay"
+    ></iframe>
+</body>
+</html>
